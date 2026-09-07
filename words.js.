@@ -1,0 +1,127 @@
+const puzzles = {
+"2026-10-01":{
+word:"PHISH",
+clue:"Fake messages designed to steal information.",
+},
+"2026-10-02":{
+word:"VIRUS",
+clue:"Malware that spreads between systems.",
+},
+"2026-10-03":{
+word:"PATCH",
+clue:"Fixes software vulnerabilities.",
+},
+"2026-10-04":{
+word:"TOKEN",
+clue:"Used during multifactor authentication.",
+},
+"2026-10-05":{
+word:"LOGIN",
+clue:"Gateway into an account.",
+},
+"2026-10-06":{
+word:"SPYWARE",
+clue:"Software that secretly monitors users",
+},
+"2026-10-07":{
+word:"ENCRYPT",
+clue:"Protect data by scrambling it.",
+},
+"2026-10-08":{
+word:"BREACH",
+clue:"Unauthorized access to data.",
+},
+"2026-10-09":{
+word:"FIREWALL",
+clue:"Filters network traffic.",
+},
+"2026-10-10":{
+word:"THREAT",
+clue:"Potential danger to systems.",
+},
+"2026-10-11":{
+word:"HACKER",
+clue:"Person attempting system access.",
+},
+"2026-10-12":{
+word:"SECURE",
+clue:"Protected from threats.",
+},
+"2026-10-13":{
+word:"MALWARE",
+clue:"Harmful software.",
+},
+"2026-10-14":{
+word:"BACKUP",
+clue:"Copy of important data.",
+},
+"2026-10-15":{
+word:"COOKIE",
+clue:"Stores website information.",
+},
+"2026-10-16":{
+word:"UPDATE",
+clue:"Keeps software current.",
+},
+"2026-10-17":{
+word:"PASSWORD",
+clue:"Secret authentication phrase.",
+},
+"2026-10-18":{
+word:"AUTHENTICATE",
+clue:"Verify identity.",
+},
+"2026-10-19":{
+word:"NETWORK",
+clue:"Connected computers and devices.",
+},
+"2026-10-20":{
+word:"BOTNET",
+clue:"Network of compromised devices.",
+},
+"2026-10-21":{
+word:"RANSOMWARE",
+clue:"Malware that demands payment.",
+},
+"2026-10-22":{
+word:"PRIVACY",
+clue:"Protection of personal information.",
+},
+"2026-10-23":{
+word:"FIREWALLS",
+clue:"Multiple traffic filtering controls.",
+},
+"2026-10-24":{
+word:"SCAMMER",
+clue:"Fraudster seeking information.",
+},
+"2026-10-25":{
+word:"DEFENDER",
+clue:"One who protects systems.",
+},
+"2026-10-26":{
+word:"EXPLOIT",
+clue:"Method of abusing vulnerabilities.",
+},
+"2026-10-27":{
+word:"VPN",
+clue:"Secure network tunnel.",
+},
+"2026-10-28":{
+word:"CYBER",
+clue:"Digital technology domain.",
+},
+"2026-10-29":{
+word:"ZERO TRUST",
+clue:"Security model based on verification.",
+},
+"2026-10-30":{
+word:"MFA",
+clue:"Multiple authentication factors.",
+},
+"2026-10-31":{
+word:"AWARENESS",
+clue:"Goal of Cybersecurity Awareness Month.",
+tip:"People are the first line of defense."
+}
+};
