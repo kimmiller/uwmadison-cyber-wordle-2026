@@ -1,0 +1,38 @@
+/* UW–Madison Cyber Wordle styles */
+:root{
+  --uw-cardinal:#C5050C; /* UW cardinal red */
+  --uw-gray:#5f6b6f;
+  --bg:#f8f9fa;
+  --tile-bg:#d3d6da;
+  --tile-border:#b1b7bb;
+  --green:#6aaa64;
+  --yellow:#c9b458;
+  --gray:#787c7e;
+}
+*{box-sizing:border-box}
+body{font-family:Inter,Segoe UI,Arial,sans-serif;margin:0;background:var(--bg);color:#111}
+.container{max-width:800px;margin:0 auto;padding:1rem}
+.wm-header{background:var(--uw-cardinal);color:white;padding:1rem 0}
+.wm-header h1{margin:0;font-size:1.25rem}
+.wm-header #stats{margin-top:.5rem;font-size:.95rem}
+.wm-footer{background:var(--uw-gray);color:white;padding:.75rem 0;margin-top:2rem}
+.controls{display:flex;gap:1rem;align-items:center;margin:1rem 0}
+.controls label{font-weight:600}
+#clue{margin-left:auto;font-weight:600}
+.board{display:grid;grid-template-rows:repeat(6,64px);gap:8px;margin-top:1rem}
+.row{display:flex;gap:8px}
+.tile{width:64px;height:64px;border-radius:6px;background:var(--tile-bg);border:2px solid var(--tile-border);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1.25rem;color:#111}
+.tile.filled{background:white}
+.tile.green{background:var(--green);color:white;border-color:var(--green)}
+.tile.yellow{background:var(--yellow);color:white;border-color:var(--yellow)}
+.tile.gray{background:var(--gray);color:white;border-color:var(--gray)}
+.keyboard{margin-top:1rem;display:flex;flex-direction:column;gap:8px}
+.k-row{display:flex;gap:6px;justify-content:center}
+.key{padding:10px 12px;border-radius:6px;background:#e0e0e0;border:none;font-weight:700;cursor:pointer}
+.key.wide{padding:10px 20px}
+.instructions{background:white;padding:1rem;border-radius:6px;margin-top:1rem}
+.footer-note{margin-top:1rem;color:#444}
+@media (max-width:600px){
+  .tile{width:48px;height:48px;font-size:1rem}
+  .board{grid-auto-rows:48px}
+}

@@ -1,30 +1,55 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>UW Cyber Wordle 2026</title>
-style.css
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>UW–Madison Cyber Wordle — October 2026</title>
+  <link rel="stylesheet" href="assets/style.css" />
 </head>
-
 <body>
+  <header class="wm-header">
+    <div class="container">
+      <h1>UW–Madison Cyber Wordle — October 2026</h1>
+      <div id="stats">Wins this month: <span id="win-count">0</span></div>
+    </div>
+  </header>
 
-<header>
-assets/uw-logo.png
-<h1>UW Cyber Wordle 2026</h1>
-<p>Cybersecurity Awareness Month</p>
-</header>
+  <main class="container">
+    <section class="controls">
+      <label for="date-select">Choose date (Oct 2026):</label>
+      <select id="date-select"></select>
+      <div id="clue">Clue: <span id="clue-text">Loading...</span></div>
+    </section>
 
-<div id="clue"></div>
-<div id="game-board"></div>
-<div id="message"></div>
+    <section id="game">
+      <div id="board" class="board"></div>
+      <div id="keyboard" class="keyboard"></div>
+    </section>
 
-words.jsscript>
-script.jsscript>
+    <section id="instructions" class="instructions">
+      <h2>How to play</h2>
+      <ol>
+        <li>Guess the 5-letter cybersecurity-related word for the selected date in October 2026.</li>
+        <li>After each guess, tiles will change color to show how close your guess was:</li>
+        <ul>
+          <li><span class="tile green">Green</span> — Correct letter in the correct spot.</li>
+          <li><span class="tile yellow">Yellow</span> — Correct letter in the wrong spot.</li>
+          <li><span class="tile gray">Gray</span> — Letter not in the word.</li>
+        </ul>
+        <li>You have 6 attempts to guess the word.</li>
+        <li>Your wins for the month are tracked locally in your browser.</li>
+      </ol>
+    </section>
 
-<footer>
-© 2026 University of Wisconsin–Madison
-</footer>
+    <section class="footer-note">
+      <p>This project uses UW–Madison colors in the header and footer for branding.</p>
+    </section>
+  </main>
 
+  <footer class="wm-footer">
+    <div class="container">&copy; 2026 UW–Madison Cybersecurity — Cyber Wordle</div>
+  </footer>
+
+  <script src="assets/app.js"></script>
 </body>
 </html>
